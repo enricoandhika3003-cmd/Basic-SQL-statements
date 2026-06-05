@@ -38,3 +38,6 @@ print(new_teams)
 min_max_margin = pd.read_sql("""SELECT MIN(WIN_MARGIN), MAX(WIN_MARGIN)
                              FROM MATCH;""", conn)
 print(min_max_margin)
+
+
+print("***"*10)
